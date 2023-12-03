@@ -1,12 +1,12 @@
 {
-  "name": "pwa-starter",
+  "name": "apptemplate",
   "version": "0.0.1",
   "description": "A starter kit for building PWAs!",
   "main": "index.js",
   "scripts": {
-    "dev-server": "vite --open",
+    "dev-server": "vite --open --host",
     "dev": "npm run dev-server",
-    "dev-task": "vite",
+    "dev-task": "vite --host",
     "deploy": "npx @azure/static-web-apps-cli login --no-use-keychain && npx @azure/static-web-apps-cli deploy",
     "build": "tsc && vite build",
     "start": "npm run dev",
