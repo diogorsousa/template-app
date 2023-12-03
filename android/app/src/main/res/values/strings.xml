@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">apptemplate</string>
+    <string name="title_activity_main">apptemplate</string>
+    <string name="package_name">com.drs.apptemplate</string>
+    <string name="custom_url_scheme">com.drs.apptemplate</string>
+</resources>

@@ -14,7 +14,7 @@ import { title } from '@thepassle/app-tools/router/plugins/title.js';
 
 import './pages/app-home.js';
 
-const baseURL: string = (import.meta as any).env.BASE_URL;
+const baseURL: string = (import.meta.env.BASE_URL).length > 2 ? (import.meta.env.BASE_URL).slice(1,-1) : (import.meta.env.BASE_URL);
 
 export const router = new Router({
     routes: [
